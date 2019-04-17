@@ -10,7 +10,7 @@ var fs = require("fs");
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 4300);
+app.set('port', process.env.PORT || 8080);
 app.use(express.logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 
